@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  background-image: url(../public/BackGroundClima.png);
+  background-size: cover; /* Faz a imagem cobrir toda a tela */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Evita repetições da imagem */
+  width: 100vw; /* 100% da largura da tela */
+  height: 100vh; /* 100% da altura da tela */
+  overflow: hidden;
+}
+
+.container {
+
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+  height: 100vh;
+  display: flex;
+  gap: 16em;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container-TituloCampo {
+
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+
+}
+
+.container-titulo {
+
+  /* font-size: 32px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.lottie-animation{
+
+  width: 8em;
+  height: 4em;
+
+}
+
+.container-titulo h1 {
+
+  font-size: 32px;
+  font-weight: 900;
+
+}
+
+.container-campoEButton {
+
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  gap: 24px;
+  align-items: center;
+}
+
+.container-campoEButton button {
+
+  border-radius: 16px;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 12em;
+  height: 3em;
+
+}
+
+
+.container-detalhesClima {
+
+  text-align: center;
+
+}
+
+.container-time {
+
+  text-align: center;
+
+}
+
+/* .container-time h2 {
+
+  font-weight: bold;
+
+} */
+
+.container-time p {
+
+  font-size: 32px;
+  font-weight: bolder;
+  font-style: italic;
+
+}
+
+.container-time svg {
+
+  margin: 0 .5em 0 0;
+
+}
