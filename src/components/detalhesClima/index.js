@@ -22,7 +22,7 @@ function DetalhesClima({ dadosClima }) {
     
         {dadosClima.weather[0].main === "Rain" && chuva()}
 
-        {dadosClima.weather[0].main === "Drizzle" && Chuvisco()}
+        {dadosClima.weather[0].main === "Drizzle " && Chuvisco()}
 
         {dadosClima.weather[0].main === "Thunderstorm" && Tempestade()}
 

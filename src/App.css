@@ -37,11 +37,9 @@ html, body {
 
 .container-titulo {
 
-  /* font-size: 32px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 
 }
 
