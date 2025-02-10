@@ -31,7 +31,7 @@ html, body {
 
   display: flex;
   flex-direction: column;
-  gap: 6rem;
+  gap: 24px;
 
 }
 
